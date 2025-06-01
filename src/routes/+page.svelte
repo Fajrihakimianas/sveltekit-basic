@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import AllProducts from '$lib/components/AllProducts.svelte';
+	import FeaturedProducts from '$lib/components/FeaturedProducts.svelte';
+	import Hero from '$lib/components/Hero.svelte';
+	import ProductCategories from '$lib/components/ProductCategories.svelte';
+	import VehicleFinder from '$lib/components/VehicleFinder.svelte';
+</script>
+
+<Hero />
+<VehicleFinder />
+<ProductCategories />
+<FeaturedProducts />
+<AllProducts />
