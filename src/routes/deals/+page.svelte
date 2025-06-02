@@ -43,7 +43,7 @@
 <div class="page">
 	<h1>Account Setup Process</h1>
 	<br />
-	<div class="grid md:grid-cols-3 gap-5">
+	<div class="grid md:grid-cols-3 gap-5 mx-10">
 		<Steps {steps} current={currentStep} showProgress={true} />
 
 		<div class="md:col-span-2">
